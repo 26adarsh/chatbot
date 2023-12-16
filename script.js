@@ -9,7 +9,7 @@ chatForm.addEventListener('submit', (e) => {
     displayMessage(userInput, 'user');
     // Send user input to the server and get the response
     // Display the response in the chat messages
-    document.getElementById('user-input').value = '';
+    document.getElementById('user-input').value = ''; //trial 2
 });
 
 function displayMessage(message, sender) {
